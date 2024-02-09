@@ -1,3 +1,5 @@
+'use client';
+
 import { useRef, RefObject } from 'react';
 
 type Props = {
