@@ -34,7 +34,6 @@ const Timer = () => {
 		ctx.fillText(timerTxt, canvas.width / 2, canvas.height / 2);
 
 		const updateTimer = () => {
-			// rectTimer();
 			setSeconds((prevSeconds) => prevSeconds - 1);
 		};
 
